@@ -1,0 +1,19 @@
+{
+  "name": "lambda-s3",
+  "version": "1.0.0",
+  "description": "lamnda-s3 serveless",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lambda-s3"
+  ],
+  "author": "Kayce.wang",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.485.0",
+    "sharp": "^0.33.1"
+  }
+}
